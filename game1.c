@@ -12,7 +12,6 @@ int main(){
 
         //will genrate random number from 1 to 100
         //printf("the number is %d\n\n",num);//it will not show which number is generated
-        //the number is generated between 0 to 99, so we add 1 to it to get the number between 1 to 100
         do{
             printf("guess the number\n\n");
             scanf("%d",&guess);
@@ -21,7 +20,7 @@ int main(){
             if (guess>num)
             {
                 printf("lower number please\n\n");
-                printf("hello world\n\n");
+               
             }
             else if(guess <num)
             {
