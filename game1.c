@@ -21,6 +21,7 @@ int main(){
             if (guess>num)
             {
                 printf("lower number please\n\n");
+                printf("hello world\n\n");
             }
             else if(guess <num)
             {
